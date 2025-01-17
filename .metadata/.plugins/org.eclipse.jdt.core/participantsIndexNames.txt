@@ -1,0 +1,5 @@
+INDEX VERSION 1.132
+/media/Documentos/Erika/atividadeAvaliativa/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3010860679.index
+/dsw_exercicio_avaliativo/src/main/java
+/media/Documentos/Erika/atividadeAvaliativa/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3919065982.index
+/dsw_exercicioavaliativo/src/main/java

@@ -1,0 +1,7 @@
+127.0.0.1 - - [17/Jan/2025:08:08:15 -0300] "GET / HTTP/1.1" 404 764
+0:0:0:0:0:0:0:1 - - [17/Jan/2025:08:08:18 -0300] "GET /dsw_exercicio_avaliativo/index.jsp HTTP/1.1" 200 118
+0:0:0:0:0:0:0:1 - - [17/Jan/2025:08:08:46 -0300] "GET /dsw_exercicio_avaliativo/index.jsp HTTP/1.1" 200 135
+127.0.0.1 - - [17/Jan/2025:08:15:09 -0300] "GET / HTTP/1.1" 404 764
+0:0:0:0:0:0:0:1 - - [17/Jan/2025:08:15:10 -0300] "GET /dsw_exercicioavaliativo/index.jsp HTTP/1.1" 200 135
+127.0.0.1 - - [17/Jan/2025:08:16:30 -0300] "GET / HTTP/1.1" 404 764
+0:0:0:0:0:0:0:1 - - [17/Jan/2025:08:16:32 -0300] "GET /dsw_exercicioavaliativo/index.jsp HTTP/1.1" 200 135
