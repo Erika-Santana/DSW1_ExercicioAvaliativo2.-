@@ -1,0 +1,17 @@
+package model.dao;
+
+import java.util.List;
+
+import model.entity.Pedidos;
+import model.entity.Usuario;
+
+public interface DatabaseUserDAO {
+	
+	public boolean cadastrarNovosUsuario(Usuario user);
+	public boolean encontrarUsuarioRegistrado(String eail);
+	public List<Pedidos> listarTOdosPedidos();
+	public List<Pedidos> mostrarPedidoUsuario(Usuario user);
+	public boolean cadastrarPedido(Pedidos pedido);
+	
+	
+}

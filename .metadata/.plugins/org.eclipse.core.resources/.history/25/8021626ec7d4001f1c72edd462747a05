@@ -1,0 +1,15 @@
+package model.entity;
+
+public class Usuario {
+	private String login;
+	private String senha;
+	
+	public Usuario() {
+		// TODO Auto-generated constructor stub
+	}@Override
+	protected Object clone() throws CloneNotSupportedException {
+		// TODO Auto-generated method stub
+		return super.clone();
+	}
+
+}

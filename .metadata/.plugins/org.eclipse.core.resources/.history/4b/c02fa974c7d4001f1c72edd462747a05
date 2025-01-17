@@ -1,0 +1,12 @@
+package model.dao;
+
+public class DatabaseUserImp implements DatabaseUserDAO{
+	@Override
+	public boolean cadastrarNovosUsuario() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+	
+	
+
+}

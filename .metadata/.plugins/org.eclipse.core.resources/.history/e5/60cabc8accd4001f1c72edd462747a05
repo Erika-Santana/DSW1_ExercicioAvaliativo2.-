@@ -1,0 +1,17 @@
+package controler.command;
+
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
+
+public class LoginCommand implements Command{
+
+	@Override
+	public String execute(HttpServletRequest request, HttpServletResponse resp) {
+		var login = request.getParameter("login");
+		var senha = request.getParameter("senha");
+		
+		
+		return null;
+	}
+
+}

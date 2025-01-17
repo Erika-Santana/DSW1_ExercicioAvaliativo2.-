@@ -1,0 +1,10 @@
+package model.dao.connection;
+
+public class DatabaseConnection {
+	
+	private static final String RESOURCES= "java:/comp/env/jdbc/mysql";
+
+	private DatabaseConnection() {
+		// TODO Auto-generated constructor stub
+	}
+}

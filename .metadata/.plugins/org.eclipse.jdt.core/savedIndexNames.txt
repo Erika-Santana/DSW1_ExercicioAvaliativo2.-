@@ -5,6 +5,9 @@ INDEX VERSION 1.132+/media/Documentos/Erika/atividadeAvaliativa/.metadata/.plugi
 1351603734.index
 872583113.index
 4078530942.index
+2888860043.index
+4215020116.index
+403987735.index
 3554447386.index
 2224442989.index
 1421319697.index
@@ -13,7 +16,6 @@ INDEX VERSION 1.132+/media/Documentos/Erika/atividadeAvaliativa/.metadata/.plugi
 580067066.index
 1970447796.index
 1361535133.index
-39956747.index
 2127561356.index
 542869228.index
 2528085328.index
@@ -28,6 +30,7 @@ INDEX VERSION 1.132+/media/Documentos/Erika/atividadeAvaliativa/.metadata/.plugi
 70628152.index
 2873184144.index
 366641181.index
+3396541624.index
 2688804127.index
 3746054171.index
 1010660284.index

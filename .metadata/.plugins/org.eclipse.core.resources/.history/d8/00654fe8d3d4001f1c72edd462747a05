@@ -1,0 +1,21 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Bem vindo!</title>
+</head>
+<body>
+
+			<div>
+				<a href="front.do?action=getLoginForm">Login</a><
+				<button type="submit" name="botaoLogin" href="">Login</button>
+			</div>
+			<div>
+				
+				<button type="submit" name="registrar">Registrar-se</button>
+			</div>
+		</form>
+</body>
+</html>

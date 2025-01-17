@@ -4,11 +4,16 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>Bem vindo!</title>
 </head>
 <body>
-
-	<h2>Teste</h2>
-
+			<div>
+				<a href="front.do?action=getLoginForm" method="post">Login</a>
+			</div>
+			<div>
+				<a href="front.do?action=register" method="post">Registrar-se</a>
+				
+			</div>
+		</form>
 </body>
 </html>

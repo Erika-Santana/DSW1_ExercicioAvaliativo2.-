@@ -1,0 +1,60 @@
+package model.dao;
+
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.List;
+
+import model.dao.connection.DatabaseConnection;
+import model.entity.Pedidos;
+import model.entity.Usuario;
+
+public class DatabaseUserImp implements DatabaseUserDAO{
+	
+	private static final String INSERT_USER = "INSERT INTO user_tb(login, senha) VALUES(?, ?)";
+	
+	@Override
+	public boolean cadastrarNovosUsuario(Usuario user) {
+		int rows = 0;
+		
+		try (var connection = DatabaseConnection.getConnection();
+					var preparedStatement = connection.prepareStatement(INSERT_USER)){
+			
+			preparedStatement.setString(1, user.getLogin());
+			preparedStatement.setString(2, user.getSenha());
+			
+			rows = preparedStatement.executeUpdate();
+			
+					
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+		return rows >0 ;
+	}
+
+	@Override
+	public boolean encontrarUsuarioRegistrado(Usuario user) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public List<Pedidos> listarTOdosPedidos() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Pedidos> mostrarPedidoUsuario(Usuario user) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public boolean cadastrarPedido(Pedidos pedido) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+	
+	
+
+}
