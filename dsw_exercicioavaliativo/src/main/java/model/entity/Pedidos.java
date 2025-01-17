@@ -3,25 +3,34 @@ package model.entity;
 public class Pedidos {
 
 	private int idPedidos;
-	private Usuario nomeCliente;
+	private String nomeCliente;
 	private String enderecoEntrega;
-	private float valor;
+	private Long valor;
 	private String descricao;
+	private Usuario user;
 	
 	
-	public Pedidos(Usuario nomeCliente, String enderecoEntrega, float valor, String descricao) {
+	public Pedidos(String nomeCliente, String enderecoEntrega, Long valor, String descricao, Usuario user) {
 		super();
 		this.nomeCliente = nomeCliente;
 		this.enderecoEntrega = enderecoEntrega;
 		this.valor = valor;
 		this.descricao = descricao;
+		this.user = user;
 	}
 	
+	public void setUser(Usuario user) {
+		this.user = user;
+	}
 	
-	public Usuario getNomeCliente() {
+	public Usuario getUser() {
+		return user;
+	}
+	
+	public String getNomeCliente() {
 		return nomeCliente;
 	}
-	public void setNomeCliente(Usuario nomeCliente) {
+	public void setNomeCliente(String nomeCliente) {
 		this.nomeCliente = nomeCliente;
 	}
 	public String getEnderecoEntrega() {
@@ -30,10 +39,10 @@ public class Pedidos {
 	public void setEnderecoEntrega(String enderecoEntrega) {
 		this.enderecoEntrega = enderecoEntrega;
 	}
-	public float getValor() {
+	public Long getValor() {
 		return valor;
 	}
-	public void setValor(float valor) {
+	public void setValor(Long valor) {
 		this.valor = valor;
 	}
 	public String getDescricao() {

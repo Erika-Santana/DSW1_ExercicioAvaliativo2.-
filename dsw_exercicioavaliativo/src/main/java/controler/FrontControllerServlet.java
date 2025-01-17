@@ -3,6 +3,7 @@ package controler;
 import java.io.IOException;
 
 import controler.command.Command;
+import controler.command.GetLoginPageCommand;
 import controler.command.LoggedCommand;
 import controler.command.LoginCommand;
 import controler.command.RegisterCommand;
@@ -40,8 +41,8 @@ public class FrontControllerServlet extends HttpServlet {
 				command = new RegisterCommand();
 			}else {if(action.equals("logged")) {
 				command = new LoggedCommand();
-			}else {	if(action.equals("getLoginForm")) {
-				command = new LoginCommand();
+			}else {	if(action.equals("getLoginPage")) {
+				command = new GetLoginPageCommand();
 			}		
 		}			
 		}

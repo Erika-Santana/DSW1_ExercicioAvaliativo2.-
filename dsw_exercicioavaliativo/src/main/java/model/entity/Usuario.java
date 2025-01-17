@@ -1,12 +1,17 @@
 package model.entity;
 
+import java.util.LinkedList;
+import java.util.List;
+
 public class Usuario {
 	private String login;
 	private String senha;
+	private List<Pedidos> listaPedidos;
 	
 	public Usuario(Usuario user) {
 		login = user.login;
 		senha = user.senha;
+		listaPedidos = new LinkedList<Pedidos>();
 	}
 	
 	public Usuario() {
@@ -35,4 +40,9 @@ public class Usuario {
 	}
 
 	 
+	public boolean addPedido(Pedidos pedido) {
+		//Fazer verificação
+		listaPedidos.add(pedido);
+		return true;
+	}
 }

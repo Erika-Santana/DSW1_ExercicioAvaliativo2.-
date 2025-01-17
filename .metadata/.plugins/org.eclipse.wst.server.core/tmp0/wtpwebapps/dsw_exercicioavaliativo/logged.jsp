@@ -9,7 +9,7 @@
 <body>
 	<% var usuarioLogado = session.getAttribute("user");
 		if(usuarioLogado == null){
-			response.sendRedirect("/front.do?action=home");
+			response.sendRedirect("/front.do?action=getLoginPage");
 		}
 	%>
 

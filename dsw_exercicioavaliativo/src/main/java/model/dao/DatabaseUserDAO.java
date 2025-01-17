@@ -9,7 +9,7 @@ public interface DatabaseUserDAO {
 	
 	public boolean cadastrarNovosUsuario(Usuario user);
 	public Usuario encontrarUsuarioRegistrado(String email);
-	public List<Pedidos> listarTOdosPedidos();
+	public List<Pedidos> listarTodosPedidos();
 	public List<Pedidos> mostrarPedidoUsuario(Usuario user);
 	public boolean cadastrarPedido(Pedidos pedido);
 	
